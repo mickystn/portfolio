@@ -66,9 +66,9 @@ function Portfolio(){0
                 <div className="content-port">
                     <h1  className='port-text-h1'>Portfolio</h1>
                     <div className="port-grid">
-                        {data.map((data)=>{
+                        {data.map((data,index)=>{
                             return (
-                                <div className="port">
+                                <div key={index} className="port">
                                     <div className="port-img">
                                         <a href="#"><img src={data.img}/></a>
                                     </div>
