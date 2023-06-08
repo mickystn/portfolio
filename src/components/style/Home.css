@@ -1,0 +1,146 @@
+
+.content {
+    align-items: center;
+    display: flex;
+    gap: 10rem;
+    height: 55rem;
+    justify-content: center;
+    position: relative;
+}
+.home {
+    background-color: #f9f9f9;
+    display: flex;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+.home-main {
+    align-items: center;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    position: relative;
+}
+.home-text .icon{
+    margin-top: 1rem;
+    margin-bottom:2rem;
+}
+.home-text .button{
+    position: absolute;
+    bottom: -80px;
+}
+
+.home-text{
+    display: flex;
+    flex-direction: column;
+    max-width: 50rem;
+    position: relative;
+}
+.home-text h2{
+    font-size:3rem;
+}
+.home-text h3{
+    font-size:2rem;
+}
+.home-text img{
+    position: absolute;
+    right: 5.5rem;
+    top: 5.5rem;
+    width:3rem;
+    height: 3rem;
+}
+.home-img img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 7rem;
+}
+.home-img .border{
+    border:1px solid black;
+    border-radius: 7rem;
+    width: 28rem;
+    height:28rem;
+    position: absolute;
+    top:30px;
+}
+
+.home-test{
+    position: absolute;
+    left:0;
+    bottom: 0;
+}
+
+
+
+@media (min-width: 501px) and (max-width:1000px){
+    .home-main {
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .home-text{
+        justify-content: center;
+        align-items: center;
+    }
+    .home-text img{
+        right: 1rem;
+        top: 5rem;
+    }
+    .home-text h2{
+        font-size:2.5rem;
+    }
+    .home-text h3{
+        font-size:1.5rem;
+    }
+    .home-img .border{
+        width: 21rem;
+        height:21rem;
+        border-radius:4rem;
+        top:20px;
+        right: -20px;
+    }
+    .home-img img{
+        width: 20rem;
+        height: 20rem;
+        border-radius: 4rem;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .content{
+        height: 45rem;
+    }
+    
+    .home-main {
+        display: flex;
+        flex-direction: column-reverse;
+        gap:2rem;
+    }
+    .home-text{
+        justify-content: center;
+        align-items: center;
+    }
+    .home-text h2{
+        font-size:1.5rem;
+    }
+    .home-text h3{
+        font-size:1.1rem;
+    }
+    .home-text img{
+        width:1.5rem;
+        height: 1.5rem;
+        right: 0rem;
+        top: 3.5rem;
+    }
+    .home-img .border{
+        width: 16rem;
+        height:16rem;
+        border-radius:4rem;
+        top:10px;
+        right: -20px;
+    }
+    .home-img img{
+        width: 15rem;
+        height: 15rem;
+        border-radius: 4rem;
+    }
+}

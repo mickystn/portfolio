@@ -1,0 +1,11 @@
+
+.container-f{
+    margin: 0 auto;
+    max-width: 60rem;
+}
+.ft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

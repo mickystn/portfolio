@@ -1,0 +1,123 @@
+.Portfolio{
+    background-color: #f9f9f9;
+    padding: 7rem 0;
+}
+.container-p{
+    margin: 0 auto;
+    max-width: 60rem;
+}
+.content-port{
+    display: flex;
+    flex-direction: column;
+}
+.port-text-h1{
+    color: #0077C0;
+    font-weight: bold;
+    font-size:2rem;
+}
+
+.port-grid {
+    grid-gap: 5rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    height: auto;
+    width: 100%;
+}
+
+.port{
+    margin-top: 2rem;
+    flex-direction: row;
+    gap: 2rem;
+    height: 20rem;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 1.7rem;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    height: auto;
+    overflow: hidden;
+    display: flex;
+}
+.port .port-img{
+    height: auto;
+    width: 40rem;
+}
+.port .port-img a img{
+    height: 25rem;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    border-radius: 1.7rem;
+    width: 100%;
+    object-fit: cover;
+}
+.port-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+}
+.port-text .port-text-title{
+    font-weight: bold;
+    font-size:1.5rem;
+}
+.port-text .port-text-detail{
+    margin-top:1.5rem;
+    font-weight: 400;
+    font-size:1.2rem;
+}
+.port-text .port-text-stack{
+    margin-top:2rem;
+    color: #1d242b95;
+    font-weight: 400;
+    font-size:1rem;
+}
+.port-button-group{
+    margin-top:4rem;
+}
+.port-button-group .icon{
+    color: #1D242B;
+}
+
+
+@media (min-width: 501px) and (max-width:1000px){
+    .port-grid{
+        gap: 0rem;
+    }
+    .port{
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        
+    }
+    .container-p{
+        width: 90vw;
+    }
+    .port .port-img{
+        height: auto;
+        width: 80vw;
+    }
+    .Portfolio{
+        padding: 4rem 0;
+    }
+}
+@media only screen and (max-width:500px){
+    .port-grid{
+        gap: 0rem;
+    }
+    .port{
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+    .container-p{
+        width: 90vw;
+    }
+    .port .port-img{
+        height: auto;
+        width: 80vw;
+    }
+    .Portfolio{
+        padding: 4rem 0;
+    }
+}
