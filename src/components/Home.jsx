@@ -5,8 +5,7 @@ import proflie from '../assets/proflie.jpg'
 import IconButton from '@mui/material/IconButton';
 import Button from '@mui/material/Button';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import FacebookIcon from '@mui/icons-material/Facebook';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function Home(){
     return (
@@ -23,11 +22,8 @@ function Home(){
                                 <IconButton href="https://github.com/mickystn">
                                     <GitHubIcon/>
                                 </IconButton>
-                                <IconButton href="https://www.instagram.com/mickystn/">
-                                    <InstagramIcon/>
-                                </IconButton>
-                                <IconButton href="https://www.facebook.com/profile.php?id=100013835763554">
-                                    <FacebookIcon/>
+                                <IconButton href="https://www.linkedin.com/in/sittinan-phattananun-833a08277/">
+                                    <LinkedInIcon/>
                                 </IconButton>
                             </div>
                             <div className="button">

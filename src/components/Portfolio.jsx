@@ -17,9 +17,10 @@ const data=[
         emo:"🎇",
         github:"https://github.com/mickystn/Senior-project-EA",
         web:"https://ea-project-frontend.vercel.app/",
-        des:"พัฒนา Expert Advisor และเว็บไซต์สำหรับผู้ใช้เพื่อเก็บข้อมูลการเทรดฟอเร็กซ์ของผู้ใช้งาน",
+        des:"พัฒนาเว็บไซต์สำหรับผู้ใช้เพื่อเก็บข้อมูลการเทรดฟอเร็กซ์ของผู้ใช้งาน Expert Advisor",
         stack:"React/Nodejs/MySQL/MQL4",
         img:img3,
+        status:"Available"
      },
     {
        name:"Numerical Project",
@@ -29,6 +30,7 @@ const data=[
        des:"พัฒนาเว็บไซต์สำหรับใช้งานในวิชา Numerical Method",
         stack:"React/Nodejs",
        img:img4,
+       status:"Available"
     },
      {
         name:"Chart data Project",
@@ -38,6 +40,7 @@ const data=[
         stack:"React",
         web:"",
         img:img2,
+        status:"Not Available"
      },
      {
         name:"Clone Advice Project",
@@ -47,6 +50,7 @@ const data=[
         stack:"HTML/CSS/Php/MySQL",
         web:"",
         img:img1,
+        status:"Not Available"
      },
      
 ]
@@ -78,6 +82,8 @@ function Portfolio(){0
                                             {data.des}
                                         </p>
                                         <h1 className="port-text-stack">{data.stack}</h1>
+
+                                        <p className="status">{data.status}</p>
                                         <div className="port-button-group">
                                             <IconButton href={data.github}>
                                                 <GitHubIcon  fontSize="large" className="icon"/>

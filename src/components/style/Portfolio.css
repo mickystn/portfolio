@@ -65,6 +65,8 @@
     margin-top:1.5rem;
     font-weight: 400;
     font-size:1.2rem;
+    text-indent: 20px;
+    text-align: justify;
 }
 .port-text .port-text-stack{
     margin-top:2rem;
@@ -77,6 +79,9 @@
 }
 .port-button-group .icon{
     color: #1D242B;
+}
+.status{
+    margin-top:1rem;
 }
 
 

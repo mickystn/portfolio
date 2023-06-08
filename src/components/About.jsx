@@ -12,7 +12,7 @@ import jsLogo from '../assets/js.png'
 function About(){
     return(
         <section className="about" id="about">
-            <div className="container">
+            <div className="container-a">
                 <div className="content-about">
                     <div className='about-detail'>
                         <div className="about-img">
@@ -22,10 +22,9 @@ function About(){
                             <h1  className='about-text-h1'>About me</h1>
                             <h2 className='about-text-h2'>- Junior Fullstack Developer</h2>
                             <p className='about-text-p'>
-                            สวัสดีครับผมเป็นนักศึกษาจบใหม่จากมหาวิทยาลัยพระจอมเกล้าพระนครเหนือ 
-                            สาขาวิทยาการคอมพิวเตอร์ <br/><br/>
-                            เริ่มเขียนภาษาซีเป็นภาษาแรกและชอบการเขียนโปรแกรมและการแก้ไขปัญหา
-                            ปัจจุบันกำลังมองหางานสาย Web developer มีความฝันคืออยากเป็น Full-stack Developer ที่เก่งครับ
+                            สวัสดีครับผมนายสิทธินันท์ พัฒนานันท์ชื่อเล่นมิกกี้เป็นนักศึกษาจบใหม่จากมหาวิทยาลัยพระจอมเกล้าพระนครเหนือ 
+                            <br/>สาขาวิทยาการคอมพิวเตอร์
+                            เริ่มเขียนภาษาซีเป็นภาษาแรกชอบ<br/>การเขียนโปรแกรมและการแก้ไขปัญหา
                             </p>
                             <div className="about-text-detail">
                                 <h2 className='at-detail-h2'>- Education</h2>

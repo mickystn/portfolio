@@ -1,6 +1,7 @@
 import './style/Contact.css'
 import EmailIcon from '@mui/icons-material/Email';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 function Contact(){
     return (
         <section className="contact" id="contact">
@@ -8,6 +9,15 @@ function Contact(){
                 <div className="content-contact">
                     <h1 className='content-header'>Contact</h1>
                     <div className="contact-group">
+                        <div className="contact-icon-box">
+                            <span>
+                                <LocationOnIcon fontSize='large' sx={{color:"#0077C0"}}/>
+                            </span>
+                            <div className="contact-info">
+                                <h3>Location</h3>
+                                <p>Bangkok,Thailand</p>
+                            </div>
+                        </div>
                         <div className="contact-icon-box">
                             <span>
                                 <EmailIcon fontSize='large'  sx={{color:"#0077C0"}}/>
