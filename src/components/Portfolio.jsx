@@ -38,9 +38,9 @@ const data=[
         emo:"📊",
         des:"พัฒนาเว็บไซต์สำหรับแสดงข้อมูลจากเจสันไฟล์ในรูปแบบแผนภูมิ",
         stack:"React",
-        web:"",
+        web:"https://chart-data-dusky.vercel.app/",
         img:img2,
-        status:"Not Available"
+        status:"Available"
      },
      {
         name:"Clone Advice Project",
