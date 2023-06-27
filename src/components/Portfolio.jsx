@@ -9,7 +9,7 @@ import img1 from '../assets/advice.png'
 import img2 from '../assets/chart.png'
 import img3 from '../assets/forex.png'
 import img4 from '../assets/numer.png'
-import img5 from '../assets/booking.png'
+import img5 from '../assets/numer.png'
 
 
 const data=[
