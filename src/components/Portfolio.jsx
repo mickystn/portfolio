@@ -9,9 +9,19 @@ import img1 from '../assets/advice.png'
 import img2 from '../assets/chart.png'
 import img3 from '../assets/forex.png'
 import img4 from '../assets/numer.png'
-
+import img5 from '../assets/booking.PNG'
 
 const data=[
+    {
+        name:"Booking System",
+        emo:"📚",
+        github:"https://github.com/mickystn/MeetingRoomSystem",
+        web:"https://frontend-meetingroom.vercel.app/",
+        des:"พัฒนาเว็บไซต์สำหรับการจองห้องประชุม",
+        stack:"React/Nodejs/MySQL",
+        img:img5,
+        status:"Available"
+     },
     {
         name:"Buffet EA Project",
         emo:"🎇",
