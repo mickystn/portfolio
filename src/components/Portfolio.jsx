@@ -11,6 +11,7 @@ import img3 from '../assets/forex.png'
 import img4 from '../assets/numer.png'
 import img5 from '../assets/booking.png'
 
+
 const data=[
     {
         name:"Booking System",
